@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.merryrogue.rhbatdroppings.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "BatDroppingsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

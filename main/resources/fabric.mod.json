@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "rhbatdroppings",
+  "version": "${version}",
+
+  "name": "Rogue Hallow's Bat Droppings",
+  "description": "Bat mobs drop Batwings which can be turned into Leather",
+  "authors": [
+    "The Merry Rogue"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "Creative Commons Attribution 3.0 US",
+  "icon": "assets/rhbatdroppings/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.merryrogue.rhbatdroppings.BatDroppings"
+    ],
+    "client": [
+      "net.merryrogue.rhbatdroppings.BatDroppingsClient"
+    ]
+  },
+  "mixins": [
+    "rhbatdroppings.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "1.19.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
